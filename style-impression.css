@@ -1,0 +1,155 @@
+body {
+color: gray;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+font-family: "Times New Roman", Times, serif;
+text-align: justify;
+text-indent: 2em;
+font-style:normal; 
+font-size:16px; 
+}
+
+h2{
+  background-color: black;
+  color: white;
+}
+
+li {
+  display: inline;
+}
+/* unvisited link */
+a:link {
+  color: gray;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+/*
+* {
+  box-sizing: border-box;
+}
+*/
+
+.img-container {
+  float: left;
+  width: 32.33%;
+  padding: 4px;
+}
+
+.sites-container {
+  float: left;
+  width: 25%;
+  padding: 4px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.clearfix1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+   display: block;
+  color: #666;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+
+.img2 {
+  float: left;
+
+}
+.picture-caption{
+   position: relative;
+left: 10%;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.picture-caption {
+	text-align: left;
+}
+header {
+  background-color: #f1f1f1;
+  padding: 2px;
+
+}
+footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 2px;
+}
+
+section {
+
+  border: 3px solid #04AA6D;
+  padding: 2px;
+}
+
+/* Style page Sites
+
+.sites{
+text-align: left;
+justify-content: space-between;
+}
+
+.sites .sites_item {
+
+	flex-basis: 20%;
+}
+
+.sites_item img {
+	width: 20%;
+}
+*/
